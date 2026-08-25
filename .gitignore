@@ -1,0 +1,74 @@
+# Operating-system metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Internal delivery artifacts
+/docs/specs/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+.direnv/
+.hermes/
+.garminconnect/
+credentials/
+tokens/
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling and test output
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Python packaging output
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+wheels/
+pip-wheel-metadata/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Personal fitness/Wiki data if a sync is pointed at the repository root
+/_meta/
+/metrics/
+/raw/
+/source-notes/
+/log.md
